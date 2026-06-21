@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .movies-container-grid{
@@ -31,9 +32,12 @@
     border: none;
     border-radius: 2px;
     padding: 8px;
+    cursor: pointer;
 }
 
-
+footer{
+    padding: 20px 0;
+}
 
 /*UTILITY CLASSES*/
 .center{
