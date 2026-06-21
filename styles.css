@@ -8,16 +8,34 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin: 20px 200px;
 }
 
 .movie-card{
-    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
+    row-gap: 20px;
 }
+
+.movie-card img{
+    width: 100%;
+}
+
 
 .movie-card button{
     color: #fff;
-    background-color: blue;
+    background-color: rgb(44, 44, 182);
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+
+
+/*UTILITY CLASSES*/
+.center{
+    place-self: center;
 }
